@@ -1,0 +1,140 @@
+/* style.css */
+
+/* Root style */
+.root {
+    -fx-background-color: #f0f2f5;
+    -fx-font-family: 'Helvetica', sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #333333;
+}
+
+/* Login Field */
+.login-field {
+		-fx-background-color: white;
+		-fx-border-color: #cccccc;
+		-fx-border-radius: 3px;
+		-fx-background-radius: 3px;
+		-fx-padding: 8px;
+}
+
+/* TextFields and PasswordFields */
+.text-field, .password-field {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 3px, 3px, 0, 0;
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px 16px;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #45A049;
+}
+
+.button:pressed {
+    -fx-background-color: #3E8E41;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+/* TableView */
+.table-view {
+    -fx-border-color: #cccccc;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e0e0e0;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #fafafa;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #b3d7ff;
+}
+
+.table-view .table-cell {
+    -fx-padding: 8px;
+}
+
+/* CheckBox */
+.check-box {
+    -fx-padding: 5px;
+}
+
+/* HBox and VBox spacing */
+.hbox, .vbox {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+		-fx-alignment: center-left;
+
+}
+
+/* Dialog Pane */
+.dialog-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 10px;
+}
+
+.dialog-pane .content {
+    -fx-padding: 10px;
+}
+
+.dialog-pane .button-bar {
+    -fx-background-color: transparent;
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+/* Status Label */
+.status-label {
+    -fx-text-fill: #4CAF50;
+    -fx-font-weight: bold;
+}
+
+/* Error Label */
+.error-label {
+    -fx-text-fill: #F44336;
+    -fx-font-weight: bold;
+		
+}
+
+/* Prompt Text */
+.text-field .text-input, .password-field .text-input {
+    -fx-prompt-text-fill: #aaaaaa;
+}
+
+/* Tabs */
+.tab-pane .tab-header-area {
+    -fx-background-color: #e0e0e0;
+}
